@@ -1,4 +1,4 @@
-package com.example.myapplication.data.Remote
+package com.example.myapplication.data.remote
 
 data class ResponseBean(
     val address: String? = null,
