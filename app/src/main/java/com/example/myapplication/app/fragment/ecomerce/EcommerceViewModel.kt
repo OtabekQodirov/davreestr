@@ -6,10 +6,10 @@ import androidx.lifecycle.LiveData
 import com.example.myapplication.data.local.ECommerceEntity
 import com.example.myapplication.domain.Repository
 
-class EcomerceViewModel(application: Application) : AndroidViewModel(application) {
+class EcommerceViewModel(application: Application) : AndroidViewModel(application) {
     private val repository = Repository(application)
 
-    fun getEcomerce(): LiveData<List<ECommerceEntity>> {
+    fun getEcommerce(): LiveData<List<ECommerceEntity>> {
         return repository.getAllECommerce()
     }
 }
