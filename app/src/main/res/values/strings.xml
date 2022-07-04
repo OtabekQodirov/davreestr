@@ -5,5 +5,9 @@
     <string name="cad_text">Kadastr raqami bo\'yicha</string>
     <string name="cad_input_text">Кадастр ракамини киритинг</string>
     <string name="cad_search">Qidiruv</string>
+    <string name="menu_main">Main</string>
+    <string name="menu_documents">Documents</string>
+    <string name="menu_ecommerce">E-Commerce</string>
+    <string name="menu_about">About</string>
 
 </resources>
