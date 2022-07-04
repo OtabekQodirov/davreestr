@@ -12,7 +12,7 @@
         android:layout_height="?actionBarSize"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="@string/ecommerce"
+        android:text="@string/menu_ecommerce"
         android:textColor="@color/white"
         android:textSize="18sp" />
 

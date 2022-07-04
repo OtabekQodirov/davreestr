@@ -10,5 +10,10 @@
 
     <color name="colorPrimary">#6699F2</color>
     <color name="text_color">#292A2E</color>
+    <color name="cad_text_color2">#292A2E</color>
     <color name="text_secondary_color">#9C9C9C</color>
+
+    <color name="borderColor">#E0E0E0</color>
+    <color name="textColor">#292A2E</color>
+    <color name="textLightColor">#9C9C9C </color>
 </resources>
