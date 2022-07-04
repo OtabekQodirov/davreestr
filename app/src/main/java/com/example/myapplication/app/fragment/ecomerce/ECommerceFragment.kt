@@ -9,16 +9,18 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
 import com.example.myapplication.app.adapter.ECommerceAdapter
+import com.example.myapplication.databinding.FragmentEcommerceBinding
 
 class ECommerceFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        val view = inflater.inflate(R.layout.fragment_ecommerce, container, false)
-        val viewModel = ViewModelProvider(this).get(EcommerceViewModel::class.java)
-        val recycler: RecyclerView = view.findViewById(R.id.recycler)
+    ): View {
+        val binding = FragmentEcommerceBinding.inflate(inflater, container, false)
+        val viewModel = ViewModelProvider(this)[EcommerceViewModel::class.java]
+        val recycler: RecyclerView = binding.recycler
         val adapter = ECommerceAdapter()
         recycler.adapter = adapter
 
@@ -26,6 +28,6 @@ class ECommerceFragment : Fragment() {
             adapter.list = it
         }
 
-        return view
+        return binding.root
     }
 }
