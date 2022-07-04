@@ -61,11 +61,11 @@
                 android:background="@drawable/box_corner"
                 android:layout_marginTop="16dp"
                 android:layout_marginHorizontal="24dp"
-                android:paddingTop="3dp"
+                android:paddingTop="5dp"
                 android:paddingStart="10dp"
-                android:text=""
+                android:text="@string/cad_text"
                 android:textSize="14sp"
-                android:textColor=""
+                android:textColor="@color/text_color"
                 tools:ignore="RtlSymmetry" />
 
             <EditText
@@ -75,10 +75,11 @@
                 android:background="@drawable/box_corner"
                 android:layout_marginTop="16dp"
                 android:layout_marginHorizontal="24dp"
+                android:paddingTop="1dp"
                 android:paddingStart="10dp"
-                android:text=""
+                android:text="@string/cad_input_text"
                 android:textSize="14sp"
-                android:textColor=""
+                android:textColor="@color/text_secondary_color"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -88,7 +89,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="120dp"
                 android:layout_marginTop="18dp"
-                android:text=""
+                android:text="@string/cad_search"
                 android:backgroundTint="@color/white"
                 android:textColor="@color/colorPrimary"
                 android:textAlignment="textStart"
