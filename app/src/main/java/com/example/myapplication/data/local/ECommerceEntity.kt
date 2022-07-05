@@ -7,11 +7,11 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "ecommerce")
 data class ECommerceEntity(
     @PrimaryKey val id: Int,
-    val name_uz:String?,
-    val name_ru:String?,
-    val name_en:String?,
-    val description_uz:Long?,
-    val description_ru:Long?,
-    val description_en:Long?,
-    @ColumnInfo(name = "url_address") val url:String?
+    val name_uz: String?,
+    val name_ru: String?,
+    val name_en: String?,
+    val description_uz: String?,
+    val description_ru: String?,
+    val description_en: String?,
+    @ColumnInfo(name = "url_address") val url: String?
 )

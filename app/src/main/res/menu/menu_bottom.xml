@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first_fragment"
+        android:icon="@drawable/ic_main"
+        android:title="@string/menu_main" />
+
+    <item
+        android:id="@+id/second_fragment"
+        android:icon="@drawable/ic_docuements"
+        android:title="@string/menu_documents" />
+
+    <item
+        android:id="@+id/third_fragment"
+        android:icon="@drawable/ic_ecommerce"
+        android:title="@string/menu_ecommerce" />
+
+    <item
+        android:id="@+id/fourth_fragment"
+        android:icon="@drawable/ic_about"
+        android:title="@string/menu_about" />
+
+</menu>

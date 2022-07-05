@@ -4,5 +4,13 @@
     <string name="documents">Documents</string>
     <string name="read_more">To’liq ma’lumotlar...</string>
     <string name="normativ_huquqiy_hujjatlar">Normativ-huquqiy hujjatlar</string>
+    <string name="main_title">Ko\'chmas Mulk Ob\'ektlariga Bo\'lgan Huquqlarning Davlat Reestri</string>
+    <string name="cad_text">Kadastr raqami bo\'yicha</string>
+    <string name="cad_input_text">Кадастр ракамини киритинг</string>
+    <string name="cad_search">Qidiruv</string>
+    <string name="menu_main">Main</string>
+    <string name="menu_documents">Documents</string>
+    <string name="menu_ecommerce">E-Commerce</string>
+    <string name="menu_about">About</string>
 
 </resources>
