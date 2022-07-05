@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="contact">Contact</string>
+    <string name="documents">Documents</string>
+    <string name="read_more">To’liq ma’lumotlar...</string>
+    <string name="normativ_huquqiy_hujjatlar">Normativ-huquqiy hujjatlar</string>
 
 </resources>
