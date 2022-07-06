@@ -16,4 +16,7 @@
     <color name="borderColor">#E0E0E0</color>
     <color name="textColor">#292A2E</color>
     <color name="textLightColor">#9C9C9C </color>
+
+    <color name="icon_background">#EEF5FF </color>
+
 </resources>

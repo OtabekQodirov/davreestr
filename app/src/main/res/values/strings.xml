@@ -3,11 +3,22 @@
     <string name="contact">Contact</string>
     <string name="main_title">Ko\'chmas Mulk Ob\'ektlariga Bo\'lgan Huquqlarning Davlat Reestri</string>
     <string name="cad_text">Kadastr raqami bo\'yicha</string>
-    <string name="cad_input_text">Кадастр ракамини киритинг</string>
     <string name="cad_search">Qidiruv</string>
     <string name="menu_main">Main</string>
     <string name="menu_documents">Documents</string>
     <string name="menu_ecommerce">E-Commerce</string>
     <string name="menu_about">About</string>
+
+
+    <string name="vp_1_title">"Ro'yxatdan o'tish"</string>
+    <string name="vp_2_title">"Ob'ektni izlash"</string>
+    <string name="vp_3_title">Javobni kutish</string>
+    <string name="vp_4_title">Ma\'lumotnomani olish</string>
+
+    <string name="vp_1_detail">"Tizimda ro'yxatdan o'tish Telefon va e-mail manzilini ko'rsatish"</string>
+    <string name="vp_2_detail">Ob\'ektning kadastr raqamini ko\'rsating Ob\'ektning turini belgilang</string>
+    <string name="vp_3_detail">10 daqiqa kutish 24 soat ichida elektron pochtaga yuboriladi</string>
+    <string name="vp_4_detail">PDF formatdagi ma\'lumotnomani yuklab olish SMS xabarnoma olish</string>
+
 
 </resources>
