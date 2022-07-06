@@ -42,19 +42,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="44dp"
                     android:paddingLeft="26dp"
+                    android:paddingTop="44dp"
                     android:text="Telefon raqami" />
 
 
-
                 <TextView
-                    android:drawableLeft="@drawable/call"
-                    android:paddingLeft="26dp"
-                    android:drawablePadding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
+                    android:drawableLeft="@drawable/call"
+                    android:drawablePadding="16dp"
+                    android:paddingLeft="26dp"
                     android:paddingBottom="16dp"
                     android:text="+998 (71) 202-01-23" />
 
@@ -67,33 +66,28 @@
                     android:background="@color/colorPrimary" />
 
 
-
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="16dp"
                     android:paddingLeft="26dp"
+                    android:paddingTop="16dp"
                     android:text="Manzil" />
 
 
-
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_location"
                     android:drawablePadding="16dp"
                     android:paddingLeft="26dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="Toshkent Xalqa Avtomobil Yo'li" />
 
 
                 <fragment
-                    android:id="@+id/map"
+                    android:id="@+id/google_map"
                     android:name="com.google.android.gms.maps.SupportMapFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    />
-
+                    android:layout_height="300dp" />
 
 
             </LinearLayout>

@@ -19,6 +19,7 @@ class ECommerceFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val binding = FragmentEcommerceBinding.inflate(inflater, container, false)
+
         val viewModel = ViewModelProvider(this)[EcommerceViewModel::class.java]
         val recycler: RecyclerView = binding.recycler
         val adapter = ECommerceAdapter()
