@@ -3,9 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/drawable/item_border.xml" value="0.341" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/activity_main.xml" value="7.0" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_doc.xml" value="0.22" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_ecommerce.xml" value="0.275" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/item_document.xml" value="0.21721311475409835" />
+        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/item_ecommerce.xml" value="0.275" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/drawable/box_corner.xml" value="0.153" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/drawable/cad_search.xml" value="0.153" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/drawable/ic_facebook.xml" value="0.153" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/drawable/ic_telegram.xml" value="0.153" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/drawable/ic_twitter.xml" value="0.153" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/layout/fragment_about.xml" value="0.22" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/drawable/add_ic.xml" value="0.1505" />
-        <entry key="..\:/Users/Max/AndroidStudioProjects/davreestr/app/src/main/res/layout/fragment_about.xml" value="0.22" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/drawable/asd.xml" value="0.2265" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/drawable/box_corner.xml" value="0.1975" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/drawable/cad_search.xml" value="0.1975" />
@@ -20,18 +32,9 @@
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/fragment_about.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/fragment_doc.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/fragment_ecommerce.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/fragment_main.xml" value="0.1" />
-        <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/item_ecommerce.xml" value="0.4" />
-        <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/view_pager_item.xml" value="0.1" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/fragment_main.xml" value="0.264" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/item_ecommerce.xml" value="0.11302083333333333" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/drawable/item_border.xml" value="0.341" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/activity_main.xml" value="7.0" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_about.xml" value="0.25" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_doc.xml" value="0.22" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/fragment_ecommerce.xml" value="0.275" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/item_document.xml" value="0.21721311475409835" />
-        <entry key="..\:/Users/MOHIR/StudioProjects/davreestr/app/src/main/res/layout/item_ecommerce.xml" value="0.275" />
+        <entry key="..\:/Users/OTABEK/AndroidStudioProjects/Davreestr/app/src/main/res/layout/view_pager_item.xml" value="0.1" />
         <entry key="..\:/Users/OTABEK/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
       </map>
     </option>

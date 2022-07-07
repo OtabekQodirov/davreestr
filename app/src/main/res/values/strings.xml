@@ -22,6 +22,11 @@
     <string name="vp_2_detail">Ob\'ektning kadastr raqamini ko\'rsating Ob\'ektning turini belgilang</string>
     <string name="vp_3_detail">10 daqiqa kutish 24 soat ichida elektron pochtaga yuboriladi</string>
     <string name="vp_4_detail">PDF formatdagi ma\'lumotnomani yuklab olish SMS xabarnoma olish</string>
+    <string name="about">Biz ijtimoiy tarmoqlardamiz</string>
+    <string name="about_num">+998 (71) 202-01-23</string>
+    <string name="about_number">Telefon raqami</string>
+    <string name="about_area">Manzil</string>
+    <string name="about_area_1">Toshkent Xalqa Avtomobil Yo\'li</string>
 
 
 </resources>

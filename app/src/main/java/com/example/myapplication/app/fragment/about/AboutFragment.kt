@@ -19,8 +19,16 @@ class AboutFragment : Fragment() {
 
         val uzb = LatLng(41.0, 64.0)
         googleMap.addMarker(MarkerOptions().position(uzb).title("Marker in Uzb"))
-        //
+
+        googleMap.uiSettings.isZoomControlsEnabled = true;
+        googleMap.uiSettings.isCompassEnabled = true
+        googleMap.uiSettings.isZoomGesturesEnabled = true;
+        googleMap.uiSettings.isRotateGesturesEnabled = false;
+
+
+        googleMap.uiSettings.isMyLocationButtonEnabled = true;
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(uzb))
+
     }
 
     override fun onCreateView(
@@ -31,7 +39,10 @@ class AboutFragment : Fragment() {
         val binding = FragmentAboutBinding.inflate(inflater, container, false)
 
         //NOTE: WRITE HERE
-        val mapFragment = childFragmentManager.findFragmentById(R.id.google_map) as SupportMapFragment?
+
+
+        val mapFragment =
+            childFragmentManager.findFragmentById(R.id.google_map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
 
         return binding.root

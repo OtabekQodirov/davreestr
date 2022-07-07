@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
@@ -31,7 +32,8 @@
             android:clipToPadding="false"
             android:paddingHorizontal="24dp"
             android:paddingTop="16dp"
-            android:paddingBottom="48dp">
+            android:paddingBottom="48dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -39,55 +41,111 @@
                 android:orientation="vertical">
 
 
+
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="26dp"
                     android:paddingTop="44dp"
-                    android:text="Telefon raqami" />
+                    android:text="@string/about_number" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:drawableLeft="@drawable/call"
                     android:drawablePadding="16dp"
-                    android:paddingLeft="26dp"
+                    android:textColor="@color/text_color"
                     android:paddingBottom="16dp"
-                    android:text="+998 (71) 202-01-23" />
+                    android:textSize="16sp"
+                    android:text="@string/about_num"
+                    app:drawableLeftCompat="@drawable/call" />
 
 
                 <View
                     android:layout_width="match_parent"
-
                     android:layout_height="1dp"
                     android:alpha="0.2"
+                    android:layout_marginHorizontal="50dp"
                     android:background="@color/colorPrimary" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="26dp"
+
                     android:paddingTop="16dp"
-                    android:text="Manzil" />
+                    android:text="@string/about_area" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_location"
                     android:drawablePadding="16dp"
-                    android:paddingLeft="26dp"
-                    android:text="Toshkent Xalqa Avtomobil Yo'li" />
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp"
+                    android:text="@string/about_area_1"
+                    app:drawableLeftCompat="@drawable/ic_location" />
 
 
                 <fragment
                     android:id="@+id/google_map"
                     android:name="com.google.android.gms.maps.SupportMapFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp" />
+                    android:layout_height="254dp"
+                    android:layout_marginTop="30dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="16sp"
+                    android:text="@string/about"
+                    android:textColor="@color/text_color"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+
+
+                    <ImageView
+                        android:id="@+id/idTelegram"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_telegram"
+                        />
+
+                    <ImageView
+                        android:id="@+id/idFacebook"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_facebook"
+                        android:layout_marginHorizontal="24dp"/>
+
+                    <ImageView
+                        android:id="@+id/idTwitter"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_twitter"
+                         />
+
+                </LinearLayout>
+
+
+
+                </LinearLayout>
+
 
 
             </LinearLayout>
