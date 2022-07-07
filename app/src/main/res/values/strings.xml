@@ -23,10 +23,7 @@
     <string name="main_3_detail">10 daqiqa kutish 24 soat ichida elektron pochtaga yuboriladi</string>
     <string name="main_4_detail">PDF formatdagi ma\'lumotnomani yuklab olish SMS xabarnoma olish</string>
 
-    <string name="vp_1_detail">"Tizimda ro'yxatdan o'tish Telefon va e-mail manzilini ko'rsatish"</string>
-    <string name="vp_2_detail">Ob\'ektning kadastr raqamini ko\'rsating Ob\'ektning turini belgilang</string>
-    <string name="vp_3_detail">10 daqiqa kutish 24 soat ichida elektron pochtaga yuboriladi</string>
-    <string name="vp_4_detail">PDF formatdagi ma\'lumotnomani yuklab olish SMS xabarnoma olish</string>
+
     <string name="about">Biz ijtimoiy tarmoqlardamiz</string>
     <string name="about_num">+998 (71) 202-01-23</string>
     <string name="about_number">Telefon raqami</string>
@@ -54,10 +51,12 @@
     <string name="vp_8_detail">"Bino va inshootlarni ijara shartnomasini davlat ro'yxatidan o'tkazish"</string>
     <string name="vp_9_detail">"Jismoniy va yuridik shaxslarga turar joyning maydoni bo'yicha ma'lumotnoma olish"</string>
     <string name="vp_10_detail">"O'zganing yer uchstkasidan cheklangan tarzda foydalanish huquqi (servitut) to'g'risida kelishuvni ro'yhatdan o'tkazish"</string>
+
     <string name="main_num">1</string>
     <string name="main_num_2">2</string>
     <string name="main_num_3">3</string>
     <string name="main_num_4">4</string>
+
     <string name="malumot">Rasmiy Ma`lumotnoma</string>
     <string name="malumot_2">Onlayn Tarzda Qanday Olinadi?</string>
     <string name="malumot_3">Ko\'chmas mulk Davlat reestridan onlayn tarzda ma\'lumotnoma olish yo\'riqnomasi</string>
